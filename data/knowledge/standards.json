@@ -1,0 +1,71 @@
+[
+  {
+    "standard": "GB/T 30235-2013",
+    "title": "古代壁画保护修复档案规范",
+    "version": "2013",
+    "status": "现行",
+    "published_at": "2013-12-31",
+    "effective_at": "2014-12-01",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=6094F48C022119CDAA93C35C9B2835DA",
+    "text_source_url": "http://www.cach.org.cn/Portals/0/ch/bz/GB-T-30235-2013.pdf",
+    "verified": true,
+    "full_text_verified": true,
+    "accessed_at": "2026-10-28",
+    "verification_note": "现行状态与日期已在官方标准信息平台核对；全文核验状态单列。"
+  },
+  {
+    "standard": "GB/T 30236-2013",
+    "title": "古代壁画保护修复方案编制规范",
+    "version": "2013",
+    "status": "现行",
+    "published_at": "2013-12-31",
+    "effective_at": "2014-12-01",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=5BDFC0DF580EE6F3380E67C2D1D10A92",
+    "text_source_url": "http://www.cach.org.cn/Portals/0/ch/bz/GB-T-30236-2013.pdf",
+    "verified": true,
+    "full_text_verified": true,
+    "accessed_at": "2026-10-28",
+    "verification_note": "现行状态与日期已在官方标准信息平台核对；全文核验状态单列。"
+  },
+  {
+    "standard": "GB/T 30237-2025",
+    "title": "古代壁画病害与图示",
+    "version": "2025",
+    "status": "现行",
+    "published_at": "2025-03-28",
+    "effective_at": "2025-10-01",
+    "replaces": "GB/T 30237-2013",
+    "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C6E41429B5908B856831D23AFBE9BB3C",
+    "verified": true,
+    "full_text_verified": false,
+    "accessed_at": "2026-10-28",
+    "verification_note": "现行状态与日期已在官方标准信息平台核对；全文核验状态单列。"
+  },
+  {
+    "standard": "WW/T 0006-2023",
+    "title": "古代壁画现状调查规范",
+    "version": "2023",
+    "status": "现行",
+    "published_at": "2023-12-06",
+    "effective_at": "2024-07-01",
+    "replaces": "WW/T 0006-2007",
+    "source_url": "https://std.samr.gov.cn/hb/search/stdHBDetailed?id=1B22F5F2ACBCD349E06397BE0A0AD387",
+    "verified": true,
+    "full_text_verified": false,
+    "accessed_at": "2026-10-28",
+    "verification_note": "现行状态与日期已在官方标准信息平台核对；全文核验状态单列。"
+  },
+  {
+    "standard": "WW/T 0113-2023",
+    "title": "古代壁画起甲病害修复技术规范",
+    "version": "2023",
+    "status": "现行",
+    "published_at": "2023-12-06",
+    "effective_at": "2024-07-01",
+    "source_url": "https://std.samr.gov.cn/hb/search/stdHBDetailed?id=1B22F5F2ACB0D349E06397BE0A0AD387",
+    "verified": true,
+    "full_text_verified": false,
+    "accessed_at": "2026-10-28",
+    "verification_note": "现行状态与日期已在官方标准信息平台核对；全文核验状态单列。"
+  }
+]

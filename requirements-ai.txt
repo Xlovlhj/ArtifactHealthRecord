@@ -1,0 +1,17 @@
+# Tested Linux CPU environment. Preferred entry point: python3 run.py setup --with-ai
+# The extra index makes the explicitly pinned +cpu wheel resolvable when this
+# file is installed directly; it does not silently select a CUDA distribution.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.2.6
+Pillow==11.2.1
+opencv-python-headless==4.11.0.86
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+segmentation-models-pytorch==0.5.0
+timm==1.0.30
+# Optional SegFormer backend; imported only when --model segformer-b0 is selected.
+transformers==4.51.3
+# Optional additional engines (not required for the default CPU path):
+# diffusers>=0.31,<1                      # local stable-diffusion inpainting
+# accelerate>=1.0,<2
+# safetensors>=0.4,<1

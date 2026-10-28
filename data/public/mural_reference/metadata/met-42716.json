@@ -1,0 +1,91 @@
+{
+  "objectID": 42716,
+  "isHighlight": true,
+  "accessionNumber": "65.29.2",
+  "accessionYear": "1965",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT227320.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DT227320.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/as/original/SC-LC_65_29_2-01.jpg"
+  ],
+  "constituents": null,
+  "department": "Asian Art",
+  "objectName": "Wall painting",
+  "title": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
+  "culture": "China",
+  "period": "Yuan dynasty (1271–1368)",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "ca. 1319",
+  "objectBeginDate": 1309,
+  "objectEndDate": 1329,
+  "medium": "Water-based pigment over foundation of clay mixed with straw",
+  "dimensions": "H. 24 ft. 8 in. (751.8 cm); W. 49 ft. 7 in. (1511.3 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 751.8,
+        "Width": 1511.3
+      }
+    }
+  ],
+  "creditLine": "Gift of Arthur M. Sackler, in honor of his parents, Isaac and Sophie Sackler, 1965",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Paintings",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-12-23T04:54:48.75Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/42716",
+  "tags": [
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Bodhisattvas",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300264360",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178149"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    },
+    {
+      "term": "Medicine",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300404880",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q55693872"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q18683181",
+  "isTimelineWork": true,
+  "GalleryNumber": "206"
+}

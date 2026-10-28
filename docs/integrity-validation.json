@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-10-28T15:10:48.007558+08:00",
+  "command": ".conda/bin/python -m pytest tests/test_integrity.py -q -o faulthandler_timeout=20 --junitxml=/tmp/ahr-integrity-results.xml",
+  "python": "3.11.18",
+  "conda_managed": true,
+  "tests": 18,
+  "passed": 18,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 3.154,
+  "execution": "沙盒内TestClient事件循环启动停滞；经执行环境自动审批后，在沙盒外使用同一Conda解释器和临时runtime运行。",
+  "data_scope": "全部使用合成教学图、临时数据库、离线模型输出替身；未使用真实文物记录或真实服务密钥。",
+  "warnings": [
+    "Starlette关于AnyIO BlockingPortal别名弃用的提示，1条。"
+  ],
+  "limitations": [
+    "未连接PostgreSQL/RDS，不能据此证明云数据库并发行为。",
+    "未连接真实OBS/Redis/MaaS。",
+    "未验证真实模型准确率、完整病例或专家效果。"
+  ],
+  "testcases": [
+    {
+      "name": "test_demo_flag_cannot_authorize_external_data_transmission[False]",
+      "seconds": 0.6
+    },
+    {
+      "name": "test_demo_flag_cannot_authorize_external_data_transmission[True]",
+      "seconds": 0.097
+    },
+    {
+      "name": "test_only_current_plan_and_current_record_version_can_progress",
+      "seconds": 0.329
+    },
+    {
+      "name": "test_plan_keeps_creation_snapshot_when_current_record_is_renamed",
+      "seconds": 0.177
+    },
+    {
+      "name": "test_original_missing_cannot_be_replaced_with_normalized_display_bytes",
+      "seconds": 0.127
+    },
+    {
+      "name": "test_simulation_records_enqueue_snapshot_when_record_changes_during_queue",
+      "seconds": 0.262
+    },
+    {
+      "name": "test_model_evidence_requires_server_job_and_cannot_forge_confidence",
+      "seconds": 0.157
+    },
+    {
+      "name": "test_signature_must_match_authenticated_reviewer",
+      "seconds": 0.19
+    },
+    {
+      "name": "test_authenticated_other_organization_cannot_read_or_change_record_evidence",
+      "seconds": 0.252
+    },
+    {
+      "name": "test_malformed_model_extraction_falls_back_without_returning_unchecked_fields[diagnosis0]",
+      "seconds": 0.086
+    },
+    {
+      "name": "test_malformed_model_extraction_falls_back_without_returning_unchecked_fields[diagnosis1]",
+      "seconds": 0.085
+    },
+    {
+      "name": "test_malformed_model_extraction_falls_back_without_returning_unchecked_fields[diagnosis2]",
+      "seconds": 0.085
+    },
+    {
+      "name": "test_malformed_diagnosis_cannot_enter_record[diagnosis0]",
+      "seconds": 0.081
+    },
+    {
+      "name": "test_malformed_diagnosis_cannot_enter_record[diagnosis1]",
+      "seconds": 0.079
+    },
+    {
+      "name": "test_malformed_diagnosis_cannot_enter_record[diagnosis2]",
+      "seconds": 0.079
+    },
+    {
+      "name": "test_nonfinite_numbers_cannot_enter_record[nan]",
+      "seconds": 0.069
+    },
+    {
+      "name": "test_nonfinite_numbers_cannot_enter_record[inf]",
+      "seconds": 0.069
+    },
+    {
+      "name": "test_nonfinite_numbers_cannot_enter_record[-inf]",
+      "seconds": 0.07
+    }
+  ],
+  "files_sha256": {
+    "tests/test_integrity.py": "7c6272404ad1c62a3637d899b2d24c5da30c1bddaef5c37189c30b55421fadc3",
+    "backend/ahr/main.py": "f8280f2e371b8cb3ac86a6a8229732b10b2081c498ac777b66480782aa481991",
+    "backend/ahr/generation.py": "7456867625b28cf9001daaeb12b28ad0719a573a2e3b66016cf1f61e1c0545e1",
+    "backend/ahr/service.py": "b9aa8568e5bc8b3221c46a157c8368d86ea4c9dda53d8c15c507fc2d350c25c9",
+    "backend/ahr/db.py": "6c57346b78e8169c25ec1c7906532dad7fb1d2baf02befa6d5723354189d5f7e",
+    "backend/ahr/reports.py": "ea5bfbd228d460590ff139b116d04908198cd0a5870198b21d8fef23796cf1a4"
+  }
+}

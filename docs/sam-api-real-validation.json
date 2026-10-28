@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-28T08:48:13.297287+00:00",
+  "scope": "actual FastAPI authentication + licensed museum import + asynchronous SAM job using real local pretrained weights; isolated temporary SQLite",
+  "reference_object": "met-42716",
+  "image_sha256": "d81bb14097aeb597cb22067a3916a00473bd1f2cd7ecfc5dc43721a39b2cfb10",
+  "model_version": "d2c41410392678be1402b85c87faf34eec56fc5054a5b4238aa691233644f41c",
+  "source_record_version": 1,
+  "status": "ok",
+  "proposal_count": 3,
+  "disease_labels": [
+    null,
+    null,
+    null
+  ],
+  "elapsed_seconds": 11.122,
+  "no_diagnosis_persisted": true,
+  "record_version_unchanged": true,
+  "external_model_requests": false,
+  "local_configuration_enabled": [
+    "SAM",
+    "DINOv2"
+  ],
+  "real_six_class_dice": null
+}

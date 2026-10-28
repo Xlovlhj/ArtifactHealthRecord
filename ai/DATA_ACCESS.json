@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-10-28",
+  "dataset": "MuralDH",
+  "provider": "中国矿业大学研究团队，中国甘肃敦煌壁画；发布平台 Dryad",
+  "landing_page": "https://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4jd",
+  "paper": "https://doi.org/10.1038/s41597-024-03785-0",
+  "license": "CC0-1.0",
+  "license_evidence": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4jd",
+  "version_id": 306952,
+  "files": [{"name": "MuralDH.zip", "bytes": 7738652652, "sha256": "e4afa5f06a68eff62481c8c52dc8d2d9e1c271dd7e145e022a4ee66a55d413de"}],
+  "access_observations": [
+    {"endpoint": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4jd", "status": 200, "result": "公开元数据与CC0许可已核实"},
+    {"endpoint": "https://datadryad.org/api/v2/versions/306952/files", "status": 200, "result": "公开文件清单与尺寸校验值已核实"},
+    {"endpoint": "https://datadryad.org/api/v2/files/3347581/download", "status": 401, "result": "下载需要认证，本次未获取数据"},
+    {"endpoint": "https://datadryad.org/downloads/file_stream/3347581", "status": 403, "result": "公开网页下载链接在当前环境被拒绝，本次未获取数据"}
+  ],
+  "training_images_obtained": 0,
+  "real_six_class_checkpoint_available": false,
+  "real_test_dice": null,
+  "notes": ["MuralDH 的原始标签与六类病害并不一一对应，未据摘要强行映射。", "未复制无独立许可证声明的上游 GitHub 代码。", "工程测试采用自行绘制的合成图案并禁止进入真实评测。"]
+}

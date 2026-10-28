@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "branch": "xqw-v0",
+  "summary": {
+    "pytest": "本机145项通过；干净发布副本143项通过、2项真实权重测试跳过；失败0",
+    "frontend_build": "TypeScript + Vite生产构建通过",
+    "browser": "26项通过；页面错误0",
+    "delivery": "27张照片/18件对象：原图SHA、馆方元数据SHA、许可、下载URL与清单一致；干净副本验证通过",
+    "models": "真实照片上SAM返回3候选、DINOv2返回Top5；ResNet34编码器与官方权重一致、七通道前向通过；未产生六类Dice；另已通过真实SAM鉴权异步API端到端验证"
+  },
+  "python_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "145",
+    "time": "21.624",
+    "timestamp": "2026-10-28T16:49:05.590747+08:00"
+  },
+  "clean_copy_python_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "2",
+    "tests": "145",
+    "time": "9.524",
+    "timestamp": "2026-10-28T16:43:13.285560+08:00"
+  },
+  "commands": [
+    "python3 run.py test",
+    "python3 run.py verify",
+    "python3 run.py script verify_real_assets.py",
+    "python3 frontend/tests/browser_smoke.py",
+    "python3 run.py doctor",
+    "python3 -m pip check"
+  ],
+  "clean_copy_scope": "仅复制发布白名单文件，无本机runtime/受限影像/模型权重；复用本机已安装的Conda解释器，不是全新联网安装或Docker运行；SAM/DINOv2权重未随公开副本分发，两项真实权重测试按设计跳过，其实测证据来自本机独立模型报告",
+  "public_data": {
+    "manifest_sha256": "85dbc2e7f5028de4c334a4407547b0dd2f8d317a7dfd61690ed5508fb551a224",
+    "count": 27,
+    "artifact_count": 18,
+    "unique_file_sha256_count": 27,
+    "total_bytes": 73602141,
+    "view_counts": {
+      "front": 14,
+      "front_monochrome": 5,
+      "reverse": 8
+    },
+    "six_class_ground_truth_count": 0,
+    "training_eligible": false,
+    "all_files_verified": true,
+    "license": "CC0-1.0"
+  },
+  "browser_report": "frontend-validation.json",
+  "real_model_report": "../ai/REAL_ASSET_VALIDATION.json",
+  "real_six_class_dice": null,
+  "complete_licensed_cases": 0,
+  "field_pilot_sites": 0,
+  "cloud_live_validation": false,
+  "docker_runtime_validation": false,
+  "standard_rendering_certified": false,
+  "warnings": [
+    "Starlette/AnyIO BlockingPortal接口的上游DeprecationWarning，不影响本次测试。"
+  ],
+  "known_limits": [
+    "SAM浏览器成功候选用明确标记夹具验证交互；真实权重推理由独立报告验证",
+    "没有六类专业标注、目标域权重、完整病例或真实专家盲评",
+    "云适配器离线测试不等于华为云部署；新机器完整安装及PostgreSQL并发仍需目标环境验证"
+  ],
+  "clean_copy_skips": [
+    "test_real_dinov2_optional_local_weights",
+    "test_sam_optional_real_weights_prompt_forward"
+  ],
+  "sam_api_real_report": "sam-api-real-validation.json",
+  "word_document": {
+    "path": "ArtifactHealthRecord_xqw-v0_交付与后续工作.docx",
+    "pages": 8,
+    "validation": "LibreOffice本地转PDF、中文提取、关键图片页与任务表页面栅格目检通过"
+  }
+}

@@ -1,0 +1,32 @@
+name: Verify complete project
+on:
+  push:
+    branches: [xqw-v0]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install complete Python dependencies
+        run: python3 -m pip install -r requirements.txt -r requirements-ai.txt
+      - name: Check dependencies
+        run: python3 -m pip check
+      - name: Verify public photos and museum provenance
+        run: python3 scripts/verify_delivery.py
+      - name: Backend, AI and workflow regression
+        run: python3 -m pytest tests -q --tb=short
+      - name: Build complete frontend
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund && npm run build

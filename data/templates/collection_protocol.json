@@ -1,0 +1,41 @@
+{
+  "version": "ahr-field-data-v1",
+  "guide_basis": ["§7.1", "§7.2", "§7.4", "§7.5", "§8.3", "§12"],
+  "status": "awaiting_real_collection_and_expert_review",
+  "target_region": null,
+  "target_region_note": "由团队与真实合作方确定，不能根据开放照片可得性擅自将多个地区混成目标域。",
+  "minimum_mvp": {
+    "images": [30, 50],
+    "instances_per_class": 20,
+    "total_instances": 100,
+    "expert_reviewers": 1,
+    "deidentified_real_treatment_archive": 1,
+    "basis": "指南§7.1初赛最小包；不是已完成数量。§7.4每类100实例是后续质量建设要求。"
+  },
+  "six_labels": ["起甲", "酥碱", "空鼓", "裂隙", "颜料层脱落", "地仗脱落"],
+  "collection_steps": [
+    "取得持有方书面授权，分别记录本地研究、训练、评测、公开展示和再分发权限。",
+    "记录遗址/壁画ID与原图SHA256；相邻裁片、同墙多视图不能假设为独立文物。",
+    "保留原图及拍摄日期、设备、照明、标尺与色卡；精确位置按合作协议脱敏。",
+    "两名标注者独立保存LabelMe多边形，保留作者、日期和原图哈希；无病害与未标注必须区分。",
+    "导出两份掩膜，用scripts/evaluate_study.py --inter-rater A=MASK_A B=MASK_B计算逐类一致性。",
+    "按指南0.75示例阈值定位分歧，由第三位独立专家仲裁，保存分歧原记录、最终标注与理由。",
+    "只有来源授权和标注审核均完成后，groups.csv中的reviewed才能填true；使用prepare_dataset按遗址/壁画分组。",
+    "固定测试组后再训练；以evaluate.py真实独立测试和五折汇总生成指标，不用公开未标注图库或合成图报告Dice。"
+  ],
+  "uncertainty": {
+    "labelme_flag": "flags.uncertain=true",
+    "hollowing": "空鼓需敲击/热成像等现场证据；图像疑似不能自动升级为确诊。",
+    "overlap": "六类分别画多边形；单标签掩膜重叠像素为255，独立六通道保留在有SHA256绑定的NPZ。",
+    "physical_area": "无标尺或有效尺度时只报告像素面积，不根据图像宽高或馆方藏品尺寸强行换算。"
+  },
+  "missing_now": [
+    "确定的单地域合作单位、数据协议和现场采集计划",
+    "至少30至50件/张符合实验协议的目标域影像及真实原址分组",
+    "双人独立六类病害标注、专家仲裁与每类正反边界例",
+    "空鼓/酥碱等需要的现场检测和环境数据",
+    "脱敏真实修复方案、前后照片、过程记录与长期随访",
+    "真实六类检查点、冻结测试集、五折统计和失败原因专家审阅"
+  ],
+  "public_reference_exclusion": "data/public/mural_reference是27张馆方CC0实物照片（14彩色正面、5黑白正面、8背面）/18件馆藏对象，不是上述缺项的完成证明。"
+}

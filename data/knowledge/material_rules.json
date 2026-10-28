@@ -1,0 +1,176 @@
+[
+  {
+    "id": "WWT0113-2023-MATERIAL-WORKFLOW",
+    "title": "起甲材料筛选流程",
+    "text": "模拟试块应依据本体材质工艺；完成实验室筛选后再作现场可行性及效果试验。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "4；5.1；7.2",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  },
+  {
+    "id": "WWT0113-2023-MATERIAL-COMPATIBILITY",
+    "title": "起甲材料安全与再处理性",
+    "text": "核查接触反应、耐老化及老化后再处理性。接触后变色、起泡、溶蚀提示材料风险。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "5.3.1；5.3.2.2",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  },
+  {
+    "id": "WWT0113-2023-MATERIAL-PHYSICAL",
+    "title": "起甲材料理化指标",
+    "text": "实施浓度pH为6.5—7.5；色差≤3；光泽差−2—2。原文未指定色差公式及光泽差单位，须保留试验方法。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "5.3.2.1；5.3.2.3；5.3.2.4",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  },
+  {
+    "id": "WWT0113-2023-MATERIAL-PERFORMANCE",
+    "title": "起甲材料工作性能指标",
+    "text": "渗透≥2mm；相对空白水汽透过性≥35%；孔隙率减少≤30%；拉拔黏结力0.025—0.116MPa。适用于标准试块试验。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "5.3.3.2.1—5.3.3.2.4",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  },
+  {
+    "id": "WWT0113-2023-MATERIAL-AGING",
+    "title": "起甲材料老化考察",
+    "text": "人工老化条件依据现场年内温湿极值及频率；自然老化观察应至少1年，宜至少3年。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "5.2；5.3.4",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  },
+  {
+    "id": "WWT0113-2023-MATERIAL-SITE",
+    "title": "起甲现场试验条件",
+    "text": "壁画表面温度≥12°C、现场相对湿度≤80%；还须核对扬尘、日照及露天防风雨条件。",
+    "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3432/site/attach/0/d02c9dce78994e258a0bba5126939800.pdf",
+    "publisher": "国家文物局（浙江省政务平台公开文本）",
+    "kind": "material",
+    "standard": "WW/T 0113-2023",
+    "clause": "7.1",
+    "version": "2023",
+    "verified": true,
+    "verification_note": "核对官方PDF正文；仅适用于起甲病害规定的试块/现场试验，不能据此判断材料已适用于任意壁画。",
+    "license_note": "仅项目自撰摘要和事实指标；PDF与图片未再分发，未取得模型训练许可。",
+    "tags": [
+      "起甲",
+      "材料筛选",
+      "相容性",
+      "再处理性",
+      "试验"
+    ],
+    "region": "全国",
+    "material": "起甲修复黏结材料",
+    "diseases": [
+      "起甲"
+    ],
+    "outcome": "具体材料的实际效果需试验",
+    "accessed_at": "2026-10-28",
+    "evidence_level": "primary_standard_text"
+  }
+]

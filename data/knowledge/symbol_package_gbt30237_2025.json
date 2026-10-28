@@ -1,0 +1,159 @@
+{
+  "package_id": "gbt30237-2025-six-v1",
+  "schema_version": 1,
+  "standard": "GB/T 30237-2025",
+  "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C6E41429B5908B856831D23AFBE9BB3C",
+  "preview_url": "https://openstd.samr.gov.cn/bzgk/std/showGb?type=online&hcno=C6E41429B5908B856831D23AFBE9BB3C&request_locale=zh_CN",
+  "verified_at": "2026-10-28",
+  "verified": true,
+  "scope": "首批六类病害的定义及图示；不是全部35类实现",
+  "drawing_units": "mm on exported paper, not object-space mm",
+  "stroke_width_mm": 0.3,
+  "stroke_rule": "第5.1条建议线宽；缩放须同时保持符号间距规则",
+  "symbol_sizing_interpretation": "表1起甲、酥碱的符号大小宜4mm²；实现使用2mm×2mm外接框。原文未指定边长和面积计算方式，外接框解释为本项目绘图约定，需专业版式复核。",
+  "rendering_certified": false,
+  "license_note": "项目自撰事实表与程序绘制几何；官方原文/页图仅临时核验，不分发。",
+  "symbols": [
+    {
+      "name": "起甲",
+      "table_code": "02",
+      "clause": "4.2",
+      "page": 4,
+      "key": "triangle",
+      "parameters": {
+        "symbol_box_mm": [
+          2,
+          2
+        ],
+        "min_gap_mm": 1,
+        "implemented_clear_gap_mm": 1.2
+      }
+    },
+    {
+      "name": "颜料层脱落",
+      "table_code": "07",
+      "clause": "4.7",
+      "page": 5,
+      "key": "closed_boundary",
+      "parameters": {}
+    },
+    {
+      "name": "酥碱",
+      "table_code": "19",
+      "clause": "4.19",
+      "page": 7,
+      "key": "chevron",
+      "parameters": {
+        "symbol_box_mm": [
+          2,
+          2
+        ],
+        "min_gap_mm": 1,
+        "implemented_clear_gap_mm": 1.2
+      }
+    },
+    {
+      "name": "空鼓",
+      "table_code": "20",
+      "clause": "4.20",
+      "page": 7,
+      "key": "horizontal_lines",
+      "parameters": {
+        "spacing_mm": 4,
+        "allowed_spacing_mm": [
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "name": "裂隙",
+      "table_code": "21",
+      "clause": "4.21",
+      "page": 7,
+      "key": "crack_centerline",
+      "parameters": {
+        "tick_length_mm": 2,
+        "tick_spacing_mm": 5,
+        "requires_centerline": true
+      }
+    },
+    {
+      "name": "地仗脱落",
+      "table_code": "24",
+      "clause": "4.24",
+      "page": 7,
+      "key": "hatched_boundary_band",
+      "parameters": {
+        "band_width_mm": 4,
+        "hatch_spacing_mm": 4,
+        "allowed_band_width_mm": [
+          3,
+          5
+        ],
+        "allowed_hatch_spacing_mm": [
+          3,
+          5
+        ]
+      }
+    }
+  ],
+  "evidence_pages": [
+    {
+      "preview_index": 0,
+      "printed_page": "封面",
+      "sha256": "cbb3889562cd034f72e3b006393c9e8fc895c4543c7143a2b0f7da1e285e383a",
+      "bytes": 379435,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 6,
+      "printed_page": 1,
+      "sha256": "307bb2466666d86445cc25de39273cc51c1da10eb66feacb97a8d83f2946c93c",
+      "bytes": 683569,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 7,
+      "printed_page": 2,
+      "sha256": "f4abf8be9db6ee6dfe56c275b105c30be45c6fdfb7154afba5b9ee0584ff6d93",
+      "bytes": 745170,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 8,
+      "printed_page": 3,
+      "sha256": "234afdb2da7df3e0d3adf1e13015fc42a9c02d8e6b02afbb8bded7d7568f5cfa",
+      "bytes": 812099,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 9,
+      "printed_page": 4,
+      "sha256": "184f720776ecf79f4b1419e2c573ae1f05f780edef27ef719d2c69ac8ae6d8ff",
+      "bytes": 763510,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 10,
+      "printed_page": 5,
+      "sha256": "f579e61cbd5554dd1c1fdc963dd166cb1d4b2aff94e715e0009f064828fb5d05",
+      "bytes": 478019,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    },
+    {
+      "preview_index": 12,
+      "printed_page": 7,
+      "sha256": "f96f6b7fcea22c3e6c83cd7ed83f37a4a6e13dbddd5770c76432172e2fbb7f3c",
+      "bytes": 669727,
+      "distributed": false,
+      "description": "正常公开页面按其CSS位置渲染后的核验图；不是原始PDF哈希"
+    }
+  ]
+}

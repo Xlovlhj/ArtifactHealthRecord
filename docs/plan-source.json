@@ -1,0 +1,9 @@
+{
+  "document": "方向一_文物病历_比赛构建指南_V1.0.pdf",
+  "sha256": "48d5028bb4e807d5021561cb3984ac85c463113ec49fddbb9daa377d26a5cfeb",
+  "checked_at": "2026-10-28",
+  "full_document_redistributed": false,
+  "scope": "完整阅读用户指定项目书，对照代码而非仅摘要",
+  "matrix": "guide-implementation-matrix.md",
+  "guide_targets_are_not_measured_results": true
+}

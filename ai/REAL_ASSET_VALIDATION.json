@@ -1,0 +1,174 @@
+{
+  "checked_at": "2026-10-28T08:38:52.914024+00:00",
+  "command": "python3 scripts/verify_real_assets.py",
+  "environment": {
+    "python": "3.11.18",
+    "torch": "2.5.1+cpu",
+    "transformers": "4.51.3",
+    "device": "cpu",
+    "threads": 2,
+    "dtype": "float32"
+  },
+  "catalog": {
+    "manifest_sha256": "85dbc2e7f5028de4c334a4407547b0dd2f8d317a7dfd61690ed5508fb551a224",
+    "count": 27,
+    "artifact_count": 18,
+    "unique_file_sha256_count": 27,
+    "total_bytes": 73602141,
+    "view_counts": {
+      "front": 14,
+      "front_monochrome": 5,
+      "reverse": 8
+    },
+    "six_class_ground_truth_count": 0,
+    "training_eligible": false,
+    "all_files_verified": true,
+    "license": "CC0-1.0"
+  },
+  "input": {
+    "id": "met-42716-01",
+    "path": "data/public/mural_reference/images/met-42716-01.jpg",
+    "sha256": "d81bb14097aeb597cb22067a3916a00473bd1f2cd7ecfc5dc43721a39b2cfb10",
+    "width": 1905,
+    "height": 1508,
+    "source_url": "https://www.metmuseum.org/art/collection/search/42716"
+  },
+  "dinov2": {
+    "items": [
+      {
+        "id": "met-49572-01",
+        "score": 0.5528581738471985,
+        "match_reasons": [
+          "本地预训练图像特征相似",
+          "结构过滤: view_type"
+        ],
+        "image_sha256": "58eb372796766de9db3af38fafc77d06cdc0bff2792678f556caff08ac59782a"
+      },
+      {
+        "id": "met-40345-01",
+        "score": 0.505454957485199,
+        "match_reasons": [
+          "本地预训练图像特征相似",
+          "结构过滤: view_type"
+        ],
+        "image_sha256": "adb62c7f9b595ced3bbf069c8bf46e9d94a71b46326940f2e93014d2379ed48f"
+      },
+      {
+        "id": "met-44794-01",
+        "score": 0.5053232908248901,
+        "match_reasons": [
+          "本地预训练图像特征相似",
+          "结构过滤: view_type"
+        ],
+        "image_sha256": "0f7e0b9191677f36c05ec5a968a676dcb5b32924e6fa229015084b2260c51f4d"
+      },
+      {
+        "id": "met-39906-01",
+        "score": 0.4793499708175659,
+        "match_reasons": [
+          "本地预训练图像特征相似",
+          "结构过滤: view_type"
+        ],
+        "image_sha256": "64e9ec79d15b32e03c07f3ea4b1dbe87be48c02252de794cce6a4d2d79c266e4"
+      },
+      {
+        "id": "met-49570-01",
+        "score": 0.47781556844711304,
+        "match_reasons": [
+          "本地预训练图像特征相似",
+          "结构过滤: view_type"
+        ],
+        "image_sha256": "916ce2e75214a2a1c77002ce8f682e1ae54a06264b0e455648e951e5582170aa"
+      }
+    ],
+    "method": "dinov2_image_cosine_with_structured_filters",
+    "model_version": "6fa015750563908538f78da09fabaf6caeaf8181b4ac5b7218e6fc6ea4e3ec21",
+    "status": "ok",
+    "errors": [],
+    "filters": {
+      "view_type": [
+        "front",
+        "front_monochrome"
+      ]
+    },
+    "score_definition": "L2归一化图像特征余弦相似度；不是临床相似概率",
+    "limitations": [
+      "通用预训练视觉特征未经过文物病害检索验证；相似图形不等于材料、病因或处理方法相同。"
+    ],
+    "candidate_count_after_filters": 18,
+    "elapsed_seconds": 4.512,
+    "query_itself_excluded": true,
+    "candidate_count": 26,
+    "model_files": {
+      "config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+      "model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "preprocessor_config.json": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    }
+  },
+  "sam": {
+    "status": "ok",
+    "mode": "sam_prompt_proposals",
+    "model_version": "d2c41410392678be1402b85c87faf34eec56fc5054a5b4238aa691233644f41c",
+    "model_files": {
+      "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+      "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+      "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+    },
+    "points": [
+      [
+        952,
+        754
+      ]
+    ],
+    "point_labels": [
+      1
+    ],
+    "elapsed_seconds": 10.2073,
+    "proposal_count": 3,
+    "proposals": [
+      {
+        "confidence": 0.7164802551269531,
+        "confidence_method": "SAM predicted IoU; 未校准",
+        "type": null,
+        "requires_confirmation": true,
+        "area_pixels": 1204406
+      },
+      {
+        "confidence": 0.572222113609314,
+        "confidence_method": "SAM predicted IoU; 未校准",
+        "type": null,
+        "requires_confirmation": true,
+        "area_pixels": 14540
+      },
+      {
+        "confidence": 0.37302058935165405,
+        "confidence_method": "SAM predicted IoU; 未校准",
+        "type": null,
+        "requires_confirmation": true,
+        "area_pixels": 7966
+      }
+    ],
+    "diagnosis_created": false,
+    "limitations": [
+      "SAM 只根据点击/框选提出区域边界，不识别六类病害；操作者选择类别并确认。",
+      "IoU预测分数属于模型内部排序分数，未经本项目数据校准。"
+    ]
+  },
+  "unet_resnet34": {
+    "status": "ok",
+    "encoder_weight_sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+    "official_encoder_conv1_exactly_equal": true,
+    "output_shape": [
+      1,
+      7,
+      128,
+      128
+    ],
+    "finite_logits": true,
+    "elapsed_seconds": 0.3667,
+    "segmentation_head_trained": false,
+    "checkpoint_created": false
+  },
+  "six_class_real_dice": null,
+  "claim": "公开真实壁画+官方通用预训练权重的本地工程实测；未评价六类病害精度、检索相关性或SAM专业边界质量。"
+}

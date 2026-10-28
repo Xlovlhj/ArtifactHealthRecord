@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-28",
+  "environment": "ArtifactHealthRecord/.conda; Python 3.11; torch 2.5.1+cpu; transformers 4.51.3",
+  "test_command": "python3 -m pytest tests/test_rules.py tests/test_generation.py tests/test_ai.py tests/test_storage_cache.py -q",
+  "tests": {"passed": 69, "failed": 0, "skipped": 0, "elapsed_seconds": 1.89},
+  "test_groups": {"ai": 13, "rules": 25, "generation_offline_mock": 5, "storage_cache_offline": 26},
+  "guide_rule_examples": {
+    "injected_conflicts_detected": 10,
+    "injected_conflicts_total": 10,
+    "paired_controls_passed": 10,
+    "paired_controls_total": 10,
+    "constructed_examples_only": true,
+    "not_professional_accuracy": true,
+    "fixed_regressions": ["显式数量乘单价与总额不一致", "尚不稳定误判为稳定", "未确认稳定误判为稳定"]
+  },
+  "verified_boundaries": [
+    "非正方形LabelMe尺寸正确，不确定与重叠像素不会被覆盖",
+    "按来源组划分及精确重复图像防泄漏；合成图禁止进测试",
+    "缺失病害类别指标为null，不冒充满分",
+    "无权重时无虚构病害预测；冒烟权重不会被分析服务启用",
+    "ORB/RANSAC恢复已知平移，纹理不足时不编造变化指标",
+    "模拟原图不变、掩膜外保持、输出有永久水印；缺LaMa权重报错",
+    "U-Net非整除尺寸前向与反向训练，ignore像素损失正确",
+    "SegFormer-B0真实网络前向输出七类原图尺寸logits",
+    "指南十个预设工程冲突及十个配对对照通过，额外验证稳定否定、空鼓现场证据与伪造引用",
+    "离线MockTransport验证非法JSON、伪造引用、缺章节重试后回退；未授权不外发、AI不得签章",
+    "数据清单采用相对路径，移到新目录并删除旧目录后仍可加载，清单SHA256保持不变",
+    "本地原子存储及离线OBS/Redis适配器26项契约通过，独立记录见docs/storage-cache-validation.json"
+  ],
+  "smoke_training": {
+    "command": "python3 scripts/train.py --manifest runtime/ai-smoke/data/prepared/manifest.json --output runtime/ai-smoke/model --model unet --base-channels 4 --size 64 --epochs 2 --batch-size 2 --threads 2 --smoke-test",
+    "samples": 8,
+    "data_kind": "synthetic_engineering_geometry",
+    "validation_samples": 0,
+    "test_samples": 0,
+    "epochs_completed": 2,
+    "version": "ahr-unet-20261028T071635Z",
+    "dataset_sha256": "f3b0107562ccd79ea97f89b0e1a14c0d66ab25e8514f39a0731567101359ecef",
+    "manifest_paths_relative": true,
+    "checkpoint": "runtime/ai-smoke/model/best.pt",
+    "training_report": "runtime/ai-smoke/model/training.json",
+    "reload_confirmed": true,
+    "analysis_rejects_smoke_weights": true,
+    "real_evaluation_rejects_synthetic_data": true
+  },
+  "real_six_class_dice": null,
+  "real_field_validation": false,
+  "learned_inpainting_tested": false,
+  "live_llm_connection_tested": false,
+  "live_obs_connection_tested": false,
+  "live_redis_connection_tested": false,
+  "limitations": [
+    "工程测试只能证明代码路径与数据约束工作，不证明对真实病害的准确率或专业规则正确率。",
+    "十个冲突和十个对照是预设软件测试样例，不是专家盲评，也不覆盖任意自然语言。LLM测试全部离线mock，不代表实际云模型已接通。",
+    "尚未取得可用的经过专家审核的六类真实影像与授权LaMa/SD权重。",
+    "ResNet34可选适配器未安装其额外依赖，未声称实际运行其预训练路径。"
+  ]
+}

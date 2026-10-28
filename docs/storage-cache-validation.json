@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "test_command": "python3 -m pytest tests/test_storage_cache.py -q",
+  "tests": {"passed": 26, "failed": 0, "skipped": 0, "elapsed_seconds": 0.12},
+  "installed_adapters": {"esdk-obs-python": "3.26.6", "redis": "6.2.0"},
+  "scope": "本地文件操作与离线fake/mock适配器契约测试",
+  "checks": [
+    "本地文件在完整临时写入后原子替换；替换失败保留原文件并清理临时文件",
+    "目录穿越、绝对路径逃逸、符号链接逃逸被拒绝",
+    "官方OBS SDK调用参数使用HTTPS、证书校验、private ACL、显式content type",
+    "OBS成功上传后才写本地缓存；非2xx不得当成功",
+    "OBS下载成功形成缓存，404/403/500/超时不发布部分缓存",
+    "OBS已创建客户端在成功与失败路径close；构造失败也清理下载临时文件",
+    "Redis缓存命中、JSON读写、固定键空间与900秒TTL",
+    "Redis缺配置、坏JSON、连接失败回退到未命中，不把失败当命中"
+  ],
+  "cloud_obs_tested": false,
+  "cloud_redis_tested": false,
+  "credentials_used": "仅构造的测试值，未发送网络请求",
+  "fixed_regression": "OBS客户端构造失败时，下载临时文件原先未进入finally清理；已修复并通过回归",
+  "limitations": [
+    "这些测试不证明华为云账号权限、网络、桶配置或托管Redis服务已经部署可用。",
+    "真实云环境仍需使用授权账号进行单独连通性和完整性验收。"
+  ]
+}

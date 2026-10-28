@@ -1,0 +1,81 @@
+{
+  "objectID": 49572,
+  "isHighlight": false,
+  "accessionNumber": "51.94.5",
+  "accessionYear": "1951",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/51_94_5_O1.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/51_94_5_O1.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/as/original/DP357166.jpg"
+  ],
+  "constituents": null,
+  "department": "Asian Art",
+  "objectName": "Wall painting",
+  "title": "Two Bodhisattvas",
+  "culture": "China (Xinjiang Uyghur Autonomous Region)",
+  "period": "Kizil kingdom",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "ca. 6th–7th century",
+  "objectBeginDate": 500,
+  "objectEndDate": 699,
+  "medium": "Pigments on mud plaster",
+  "dimensions": "16 3/8 x 9 3/4 in. (41.6 x 24.8 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 41.6,
+        "Width": 24.8
+      }
+    }
+  ],
+  "creditLine": "Fletcher Fund, 1951",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Paintings",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-09-30T04:51:13.59Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/49572",
+  "tags": [
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Bodhisattvas",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300264360",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q178149"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q78821984",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}

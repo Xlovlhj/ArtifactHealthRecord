@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-28T08:31:50.984676+00:00",
+  "public_reference": {
+    "count": 27,
+    "artifact_count": 18,
+    "unique_file_sha256_count": 27,
+    "total_bytes": 73602141,
+    "view_counts": {
+      "front": 14,
+      "front_monochrome": 5,
+      "reverse": 8
+    },
+    "license": "CC0-1.0",
+    "six_class_ground_truth_count": 0,
+    "training_eligible": false,
+    "github_redistribution": true
+  },
+  "local_research_dunhuang": {
+    "manifest": "runtime/real-data/dunhuang_hf/manifest.json",
+    "count": 60,
+    "unique_file_sha256_count": 60,
+    "total_bytes": 34443799,
+    "all_file_sha256_verified": true,
+    "origin_group_count": 1,
+    "site_id": "mogao-cave-007",
+    "license_declaration": "MIT（第三方上传者声明）",
+    "github_redistribution": false,
+    "reason": "原始摄影者与逐图完整授权链未列出；不随公开仓库发行",
+    "six_class_ground_truth_count": 0
+  },
+  "muraldh": {
+    "status": "metadata_only_download_not_obtained",
+    "source": "https://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4jd",
+    "license": "CC0-1.0",
+    "archive_bytes": 7738652652,
+    "obtained_training_images": 0,
+    "access_evidence": "ai/DATA_ACCESS.json",
+    "latest_access_check": {
+      "checked_at": "2026-10-28T08:35:21.358514+00:00",
+      "observations": [
+        {
+          "endpoint": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4jd",
+          "status": 200,
+          "content_type": "application/json; charset=utf-8",
+          "downloaded_archive": false
+        },
+        {
+          "endpoint": "https://datadryad.org/api/v2/versions/306952/files",
+          "status": 200,
+          "content_type": "application/json; charset=utf-8",
+          "downloaded_archive": false
+        },
+        {
+          "endpoint": "https://datadryad.org/api/v2/files/3347581/download",
+          "status": 401,
+          "content_type": "application/json; charset=utf-8",
+          "downloaded_archive": false
+        },
+        {
+          "endpoint": "https://datadryad.org/downloads/file_stream/3347581",
+          "status": 403,
+          "content_type": "text/html",
+          "downloaded_archive": false
+        }
+      ]
+    }
+  },
+  "project_synthetic": {
+    "purpose": "自动测试几何图案与工作流教学图",
+    "real_images": false,
+    "eligible_for_real_evaluation": false
+  },
+  "real_six_class_checkpoint_available": false,
+  "real_six_class_test_dice": null,
+  "annotation_templates": [
+    "data/templates/field_capture_register.csv",
+    "data/templates/independent_annotation_review.csv",
+    "data/templates/collection_protocol.json",
+    "data/public/mural_reference/annotation_intake.csv"
+  ],
+  "test_evidence": {
+    "command": "python3 -m pytest tests/test_public_data.py tests/test_ai.py tests/test_ai_extensions.py -q",
+    "passed": 37,
+    "failed": 0,
+    "elapsed_seconds": 15.31,
+    "after_final_view_metadata_update": {
+      "command": "python3 -m pytest tests/test_public_data.py -q",
+      "passed": 9,
+      "failed": 0,
+      "elapsed_seconds": 0.2
+    },
+    "preprocessor_identity_regression": {
+      "command": "python3 -m pytest tests/test_public_data.py tests/test_ai_extensions.py -q",
+      "passed": 25,
+      "failed": 0,
+      "elapsed_seconds": 12.18
+    }
+  },
+  "limitations": [
+    "公开照片与本地敦煌影像都没有经过专家审核的六类病害标注。",
+    "18件馆藏号与60张同洞窟裁片不能充当独立病害评测组。",
+    "当前无本地合作馆真实修复方案、专家盲评和三家试点数据。",
+    "已有通用SAM/DINOv2/ResNet34权重可以验证工程运行，但不构成已训好六类诊断模型。"
+  ]
+}

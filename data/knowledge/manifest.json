@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-28",
+  "primary_region": "甘肃／敦煌",
+  "knowledge_items": 37,
+  "case_summaries": 4,
+  "complete_authorized_case_records": 0,
+  "expert_notes": 0,
+  "licensed_photographs_bundled": 0,
+  "notice": "公开案例摘要不是完整修复病例；原文可访问不等于授权训练或再分发。",
+  "temporary_verified_documents": [
+    {
+      "standard": "GB/T 30236-2013",
+      "source_url": "http://www.cach.org.cn/Portals/0/ch/bz/GB-T-30236-2013.pdf",
+      "sha256": "c6a658bc1fa89907899daf02f0b58f7c6b7a6519053251d16654ef8528f63e2a",
+      "bytes": 665254,
+      "distributed": false
+    },
+    {
+      "standard": "GB/T 30235-2013",
+      "source_url": "http://www.cach.org.cn/Portals/0/ch/bz/GB-T-30235-2013.pdf",
+      "sha256": "231ebaddf078a9b60c96980e2d08177513ae97630dfa59aaf470593031167e8a",
+      "bytes": 697142,
+      "distributed": false
+    }
+  ]
+}

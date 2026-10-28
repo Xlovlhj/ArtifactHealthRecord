@@ -1,0 +1,28 @@
+{
+  "missing_files": [],
+  "public_images": {
+    "checked_images": 27,
+    "distinct_objects": 18,
+    "distinct_source_groups": 2,
+    "errors": [],
+    "six_class_annotated_images": 0,
+    "scope": "公开参考图文件、来源字段及哈希；不是专业标注或模型准确率验收"
+  },
+  "museum_source_verification": {
+    "manifest_sha256": "85dbc2e7f5028de4c334a4407547b0dd2f8d317a7dfd61690ed5508fb551a224",
+    "count": 27,
+    "artifact_count": 18,
+    "unique_file_sha256_count": 27,
+    "total_bytes": 73602141,
+    "view_counts": {
+      "front": 14,
+      "front_monochrome": 5,
+      "reverse": 8
+    },
+    "six_class_ground_truth_count": 0,
+    "training_eligible": false,
+    "all_files_verified": true,
+    "license": "CC0-1.0"
+  },
+  "passed": true
+}

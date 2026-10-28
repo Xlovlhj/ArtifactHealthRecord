@@ -1,0 +1,1 @@
+image,image_sha256,site_id,mural_id,rater_a_id,rater_a_labelme,rater_a_annotation_sha256,rater_b_id,rater_b_labelme,rater_b_annotation_sha256,agreement_report,disputed_classes,adjudicator_id,adjudication_record,final_labelme,final_annotation_sha256,reviewed_at,reviewed

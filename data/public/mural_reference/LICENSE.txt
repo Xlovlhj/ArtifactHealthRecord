@@ -1,0 +1,7 @@
+The Metropolitan Museum of Art Open Access photographs and object metadata
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Official policy: https://www.metmuseum.org/hubs/open-access
+Each object has isPublicDomain=true in its accompanying metadata/met-OBJECT_ID.json.
+The manifest preserves original image URLs, object accession numbers, credit lines and SHA256 hashes.
+The files are reference photographs of real mural objects, not expert disease annotations.

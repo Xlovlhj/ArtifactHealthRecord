@@ -1,0 +1,81 @@
+{
+  "objectID": 49574,
+  "isHighlight": false,
+  "accessionNumber": "51.94.7",
+  "accessionYear": "1951",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP360994.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP360994.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/as/original/DP360995.jpg"
+  ],
+  "constituents": null,
+  "department": "Asian Art",
+  "objectName": "Wall painting",
+  "title": "Buddha with Two Disciples",
+  "culture": "China (Xinjiang Uyghur Autonomous Region)",
+  "period": "Kizil kingdom",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "",
+  "artistPrefix": "",
+  "artistDisplayName": "",
+  "artistDisplayBio": "",
+  "artistSuffix": "",
+  "artistAlphaSort": "",
+  "artistNationality": "",
+  "artistBeginDate": "",
+  "artistEndDate": "",
+  "artistGender": "",
+  "artistWikidata_URL": "",
+  "artistULAN_URL": "",
+  "objectDate": "ca. 6th–7th century",
+  "objectBeginDate": 500,
+  "objectEndDate": 699,
+  "medium": "Pigments on mud plaster",
+  "dimensions": "9 1/8 x 10 1/2 in. (23.2 x 26.7 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 23.2,
+        "Width": 26.7
+      }
+    }
+  ],
+  "creditLine": "Fletcher Fund, 1951",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Paintings",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2026-02-06T04:55:31.413Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/49574",
+  "tags": [
+    {
+      "term": "Buddhism",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300073738",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q748"
+    },
+    {
+      "term": "Buddha",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300262950",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q7055"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q78821844",
+  "isTimelineWork": false,
+  "GalleryNumber": ""
+}
